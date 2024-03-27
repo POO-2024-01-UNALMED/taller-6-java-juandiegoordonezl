@@ -1,6 +1,6 @@
 package vehiculos;
 
-public class Camioneta extends Vehiculos {
+public class Camioneta extends Vehiculo {
 	private boolean volco ;
 	private static int camionetaN;
 	public Camioneta(String placa,int puertas,int velocidadMaxima ,String nombre, int precio, int peso,String traccion,Fabricante fabricante,boolean volco){
