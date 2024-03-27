@@ -10,10 +10,11 @@ public class Fabricante {
 	public Fabricante(String nombre,Pais pais) {
 		this.nombre= nombre;
 		this.pais=pais;
+		fabricantes.add(this);
 	}
 	
 	public void masVentas() {
-		ventas++;
+		this.ventas++;
 		this.pais.masVentas();
 	}
 	

@@ -8,6 +8,7 @@ public class Pais {
 	
 	public Pais(String nombre) {
 		this.nombre= nombre;
+		paises.add(this);
 	}
 	
 	public static Pais paisMasVendedor() {
@@ -21,7 +22,7 @@ public class Pais {
 	}
 	
 	public void masVentas() {
-		ventas++;
+		this.ventas++;
 	}
 
 	public String getNombre() {
